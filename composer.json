@@ -1,0 +1,21 @@
+{
+    "name": "menu/top",
+    "description": "test file",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Ankit Patel",
+            "email": "ankit@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "top": "src/"
+        }
+    }
+}

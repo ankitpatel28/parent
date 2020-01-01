@@ -1,0 +1,34 @@
+
+.menu{
+    border-radius:5px;
+}
+ ul {
+   
+    width:185px;
+    
+}
+ul li{
+    padding: 10px;
+}
+
+ ul li a {
+    color: #fff; 
+    padding: 10.5px 11px;
+    background-color: #DA8119;
+    display:block;
+    border-bottom:solid 1px #000;
+}
+ 
+ ul li a:visited {
+    color: white;
+}
+ 
+ ul li a:hover,  ul li .current {
+    color: #000;
+    background-color: #FBE9AC;
+}
+
+#show_hide{
+   position:fixed;
+   margin: 30px 30px;
+}
